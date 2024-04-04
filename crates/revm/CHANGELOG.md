@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [8.1.0](https://github.com/ssuangchen/revm/compare/revm-v8.0.0...revm-v8.1.0) - 2024-04-04
+
+### Added
+- *(interpreter)* remove SPEC generic from gas calculation functions ([#1243](https://github.com/ssuangchen/revm/pull/1243))
+- *(interpreter)* test Host object-safety, allow `dyn Host` in instructions ([#1245](https://github.com/ssuangchen/revm/pull/1245))
+
 ## [8.0.0](https://github.com/bluealloy/revm/compare/revm-v7.2.0...revm-v8.0.0) - 2024-04-02
 
 ### Added
